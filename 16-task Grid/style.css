@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.container div {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  grid-area: 1 / span 5;
+}
+
+.sidebar {
+  grid-area: 2 / 1 / span 7;
+}
+
+.nav {
+  grid-area: 2 / span 3;
+}
+
+.r_side {
+  grid-area: 2 / 5 / span 7;
+}
+
+.main {
+  grid-area: 3 / span 3 / span 6;
+}
+
+.footer {
+  grid-area: 9 / span 5;
+}
